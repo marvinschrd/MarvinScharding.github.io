@@ -25,7 +25,7 @@ I also used a circlecast to detect and find other close rooms that were not in c
 After the rooms were not moving anymore and the collisions and neigbors were registered, i could then build the walls around the rooms.
 The walls are also prefabs that i previoulsy designed and they are also choosed randomly to generate random patterns of walls.
 I generated each sides of the rooms one after another to prevent the blocks to appear on top of each other.
-![](https://marvinschrd.github.io/Images/Generationwithwallsanddetection(betterquality).gif)
+![](https://marvinschrd.github.io/Images/Generationwithwallsanddetection.gif)
 ### Destroying wall blocks to connect rooms
 The next step was to actually connect rooms with each other so that it would be possible to get from one to another when playing the game. In order to do that, i used the previously registered position in between each collided rooms to destroy the appropriate walls using a circlecast.
 
