@@ -43,6 +43,7 @@ The final step of the level generation was to be sure that rooms not connected t
 ### Spawning enemies and the player
 Finally, the only thing left was to spawn the characters in the rooms. For the player, i wanted him to start on the furthest room because as there is no particular order for the dungeon to be explored it tought it would be better than randomly spawning him anywhere.
 For that, i sorted the list of rooms that where present in the scene by their distance from the center of the scene and chosed the last one to be the spawn room. For the enemies, i only spawned them inside of the room where the player was and its neigbors in order to limit the amount of enemies walking around in the level at the same time. I used the list of neighbors rooms to trigger the spawn when the player entered a new room.
+![](https://marvinschrd.github.io/Images/sortingimage.png)
 ![](https://marvinschrd.github.io/Images/spawnimage.png)
 
 
