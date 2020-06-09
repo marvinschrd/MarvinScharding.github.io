@@ -36,7 +36,7 @@ I found out at this point that the rectangle colliders that i was using to regis
 
 ### Destroying isolated rooms
 The final step of the level generation was to be sure that rooms not connected to others would not stay in the level and be unreachable. To solve that, i had to ckeck for the rooms wich didn't have any collisions or inbetween positions registered to destroy them. It wasn't enough if some rooms managed to be connected to others but not to the reachable path but it limited the amount of time it would happen.
-[](https://marvinschrd.github.io/Images/destroyroomcode.png)
+![](https://marvinschrd.github.io/Images/destroyroomcode.png)
 ![](https://marvinschrd.github.io/Images/rooms%20with%20no%20connections%20drawing.png)
 ![](https://marvinschrd.github.io/Images/rooms%20with%20no%20connections%20deleted.gif)
 ### Spawning enemies and the player
