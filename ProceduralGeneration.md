@@ -36,8 +36,9 @@ I found out at this point that the rectangle colliders that i was using to regis
 
 ### Destroying isolated rooms
 The final step of the level generation was to be sure that rooms not connected to others would not stay in the level and be unreachable. To solve that, i had to ckeck for the rooms wich didn't have any collisions or inbetween positions registered to destroy them. It wasn't enough if some rooms managed to be connected to others but not to the reachable path but it limited the amount of time it would happen.
+[](https://marvinschrd.github.io/Images/destroyroomcode.png)
 ![](https://marvinschrd.github.io/Images/rooms%20with%20no%20connections%20drawing.png)
-![](https://marvinschrd.github.io/Images/rooms%20with%20no%20connections%20deleted.gif)
+![](https://marvinschrd.github.io/Images/(Inked)%20rooms%20with%20no%20connections%20deleted.gif)
 ### Spawning enemies and the player
 Finally, the only thing left was to spawn the characters in the rooms. For the player, i wanted him to start on the furthest room because as there is no particular order for the dungeon to be explored it tought it would be better than randomly spawning him anywhere.
 For that, i sorted the list of rooms that where present in the scene by their distance from the center of the scene and chosed the last one to be the spawn room. For the enemies, i only spawned them inside of the room where the player was and its neigbors in order to limit the amount of enemies walking around in the level at the same time. I used the list of neighbors rooms to trigger the spawn when the player entered a new room.
