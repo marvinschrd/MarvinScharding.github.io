@@ -15,3 +15,8 @@ I didn't want to procedurally generate each room every time because i wanted to 
 For their positioning, i used the physic engine by adding a collider and a rigidBody and instantiating the rooms on top of each others. The engine then randomly move the rooms away from each other because of the rigidbodies and the colliders and prevent them from overlapping.
 
 ![](https://marvinschrd.github.io/Images/with2SpawnPositions2.gif)
+
+### Detecting collisions between rooms
+Since my procedural generation wasn't based on an algorithm using a grid and a tilemap, the rooms didn't knew who where their neghbours or where to connect to the other rooms. I used the collision between each of them to find a position inbetween the rooms that i would later use to connect them by opening the walls.
+![](https://marvinschrd.github.io/Images/checkpositioncode.png)
+
