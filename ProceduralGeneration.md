@@ -13,4 +13,5 @@ For this game, i had to generate a dungeon made out of multiple rooms that the p
 I didn't want to procedurally generate each room every time because i wanted to be able to actually design them. That's why i used prefabs that i randomly select at the start of the generation.
 
 For their positioning, i used the physic engine by adding a collider and a rigidBody and instantiating the rooms on top of each others. The engine then randomly move the rooms away from each other because of the rigidbodies and the colliders and prevent them from overlapping.
-![](https://marvinschrd.github.io/Images/with2SpawnPositions.gif)
+
+![](https://marvinschrd.github.io/Images/with2SpawnPositions2.gif)
