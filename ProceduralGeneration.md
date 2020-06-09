@@ -26,6 +26,7 @@ After the rooms were not moving anymore and the collisions and neigbors were reg
 The walls are also prefabs that i previoulsy designed and they are also choosed randomly to generate random patterns of walls.
 I generated each sides of the rooms one after another to prevent the blocks to appear on top of each other.
 ![](https://marvinschrd.github.io/Images/Generation%20with%20walls%20and%20colission%20detection.gif)
+![](https://marvinschrd.github.io/Images/Generation%20with%20walls3.gif)
 ### Destroying wall blocks to connect rooms
 The next step was to actually connect rooms with each other so that it would be possible to get from one to another when playing the game. In order to do that, i used the previously registered position in between each collided rooms to destroy the appropriate walls using a circlecast.
 
