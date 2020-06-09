@@ -49,8 +49,16 @@ For that, i sorted the list of rooms that where present in the scene by their di
 ## Conclusion
 In the end, the difficulties were really to coordinate the script that spawned the rooms and the actions of the rooms themselves, and also removing the components that were usefull during the generation like the rigidbodies and the colliders but that could be problematic at some point of the generation or after it ended. The two state machines had to execute each step at the right time and i had to rethink the order of actions a lot of time.
 
-The rooms state machine for exemple is big:
+For exemple, the rooms state machine is big:
 
 ![](https://marvinschrd.github.io/Images/fullroomprocess.png)
 
+I wish i had the time to do a better job at getting sure each rooms was reacheable, since it is not totally impossible and i would also liked to try to use corridors some time.
+
+
+## Links
+The blog post i found that made me try this generation : https://www.gamasutra.com/blogs/AAdonaac/20150903/252889/Procedural_Dungeon_Generation_Algorithm.php
+
+The link to the project repo : 
+https://github.com/marvinschrd/Purge-The-Curse
 
