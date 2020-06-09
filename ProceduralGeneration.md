@@ -30,6 +30,7 @@ I generated each sides of the rooms one after another to prevent the blocks to a
 ### Destroying wall blocks to connect rooms
 The next step was to actually connect rooms with each other so that it would be possible to get from one to another when playing the game. In order to do that, i used the previously registered position in between each collided rooms to destroy the appropriate walls using a circlecast.
 ![](https://marvinschrd.github.io/Images/Generation%20with%20walls%20and%20detection%20and%20walls%20opening%20(better%20quality).gif)
+![](https://marvinschrd.github.io/Images/close%20up%20wall%20opening(better%20quality)%200.png)
 I found out at this point that the rectangle colliders that i was using to register the collision could allow walls to be destroyed on the corners of the rooms if that's where the inbetween position had been calculated, resulting in opening to the outside of the level. I had to add another collider, a polygon collider, that would not reach the corner of the rooms and use it for detection to prevent this problem.
 
 ### Destroying isolated rooms
