@@ -1,1 +1,1 @@
-# [Blog Post Module GPR4400 Génération procédurale](https://marvinschrd.gihub.io/ProceduralGeneration.md)
+# [Procedural generation blogpost GPR4400](https://marvinschrd.github.io/ProceduralGeneration)
