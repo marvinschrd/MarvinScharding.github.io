@@ -78,11 +78,15 @@ This will be done by using a contact and contact manager class. The contactManag
 
 This will then lead to the position and velocity corrections operations that make object realistically collide, bounce and move against each others. As said in the beginning, my engine is currently not able to make these corrections.
 
+What i already tried to do in that regard could not be added in the engine as it was not finished and would have prevented it from working. It is still in progress and will be done.
+
 
 ## Conclusion
 
 As explained, the implementation of a 2d physic engine is long and need a lot of different skills from logic to math and physics and i still haven't finished mine.
-I will work on what is needed, trying to finish the quadtree in order to greatly increase the optimisation of the collisions detection and most importantly, adding the actual collision resolution that make a physic engin what it is. I'am glad that i was able to do what i did regarding the lack of time i had on this project but more than what i actually did, i'm happy to have learnt that much and to have understood how a physic engine work. My problems came more from struggling to implement things than to understand what needed to be done.
+I will work on what is needed, trying to finish the quadtree in order to greatly increase the optimisation of the collisions detection and most importantly, adding the actual collision resolution that make a physic engin what it is.
+
+I'am glad that i was able to do what i did regarding the lack of time i had on this project but more than what i actually did, i'm happy to have learnt that much and to have understood how a physic engine work. My problems came more from struggling to implement things than to understand what needed to be done.
 
  I will not leave this engine unfinished ( or at least not actually working) because i know how usefull this learning has been and his for me.
 
