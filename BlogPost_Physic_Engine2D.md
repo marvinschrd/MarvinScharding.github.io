@@ -55,8 +55,12 @@ Then, in order to start detecting possible collisons between objects, i implemen
 
 ![](https://marvinschrd.github.io/Images/aabbOverlapSchema.png)
 
-The AABB are made of two vectors "bottom left" and "top right" that can then be used to calculate their extent and center.
+The AABB are made of two vectors "bottom left" and "top right" that can then be used to calculate their extent and center and need to be computed regarding the shape of the collider they are attached to. I chose to compute the AABB directly in the rigidbodies to be able to use the colliders inside of them to find the  actual shape and then compute.
 The main use of the AABB is to know if two of them are overlaping. This information allow us to know that the object they contain might be colliding too and to go into further contact checking, ignoring objects that are not overlaping.
+
+Exemple of an AABB being computed regarding the shapes of the collider
+
+![](https://marvinschrd.github.io/Images/rigidbody%20get%20aabb.png)
 
 ![](https://marvinschrd.github.io/Images/gif%20aabb%20detection.gif)
 ![](https://marvinschrd.github.io/Images/overlap%20code.png)
