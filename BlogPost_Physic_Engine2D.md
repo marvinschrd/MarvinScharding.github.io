@@ -64,6 +64,7 @@ The main use of the AABB is to know if two of them are overlaping. This informat
 The next step is then to use SAT (Separating Axis Therorem) to actually know if two object that have overlaping AABB are colliding or not and to calculate, if it's true, the MTV (Minimum Translation Vector) in order to correct the position of object that would have had the time to penetrate inside of each other. 
 
 Exemple of the SAT
+
 ![](https://marvinschrd.github.io/Images/sat.png)
 
 This will be done by using a contact and contact manager class. The contactManager class is used to  further check if contacts are real by calculating the SAT regarding the different shape of colliders and to create them when they occure and the contact class is used to represent a contact between object and colliders and to solve them
