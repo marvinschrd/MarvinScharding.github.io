@@ -62,6 +62,8 @@ Exemple of an AABB being computed regarding the shapes of the collider
 
 ![](https://marvinschrd.github.io/Images/rigidbody%20get%20aabb.png)
 
+
+The AABB reacting when overlapping
 ![](https://marvinschrd.github.io/Images/gif%20aabb%20detection.gif)
 ![](https://marvinschrd.github.io/Images/overlap%20code.png)
 
