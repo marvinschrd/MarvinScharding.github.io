@@ -9,7 +9,7 @@ The goal was to understand the logic behind a 2D physic engine in C++ and to be 
 ## Ressources
 To work on this project, i had to took inspiration and look for exemple, advices and explanations on a lot of different places.
 
-My main inspiration was a physic engine from Nicolas SCHNEIDER, my teacher for this course at the SAE. [Links](https://github.com/Surue/SFGE/tree/GPR4400)
+My main inspiration was a physic engine from Nicolas SCHNEIDER, my teacher for this course at the SAE. [(https://github.com/Surue/SFGE/tree/GPR4400)](https://github.com/Surue/SFGE/tree/GPR4400)
 It helped me have a look at what a similar physic engine was made of and gave me inpiration for what i had to do.
 
 I also used different internet pages and blogs to find informations, theory and implementations of parts of the physic engine.
@@ -17,6 +17,7 @@ I also used different internet pages and blogs to find informations, theory and 
 [https://box2d.org/documentation/index.html](https://box2d.org/documentation/index.html) to look at an entire and well known open source physic engine.
 
 [(https://www.azurefromthetrenches.com/introductory-guide-to-aabb-tree-collision-detection/)](https://www.azurefromthetrenches.com/introductory-guide-to-aabb-tree-collision-detection/) theory about aabb tree collision detections
+
 [(http://thatgamesguy.co.uk/cpp-game-dev-16/)](http://thatgamesguy.co.uk/cpp-game-dev-16/) Theory about quadtree
 
 [(https://gamedevelopment.tutsplus.com/tutorials/how-to-create-a-custom-2d-physics-engine-the-basics-and-impulse-resolution--gamedev-6331)](https://gamedevelopment.tutsplus.com/tutorials/how-to-create-a-custom-2d-physics-engine-the-basics-and-impulse-resolution--gamedev-6331) Article about basic collision and impulse
