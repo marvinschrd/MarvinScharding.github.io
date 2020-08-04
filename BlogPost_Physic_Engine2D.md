@@ -13,16 +13,16 @@ It helped me have a look at what a similar physic engine was made of and gave me
 
 I also used different internet pages and blogs to find informations, theory and implementations of parts of the physic engine.
 
-[Links](https://box2d.org/documentation/index.html) to look at an entire and well known open source physic engine.
+[https://box2d.org/documentation/index.html](https://box2d.org/documentation/index.html) to look at an entire and well known open source physic engine.
 
-[Links](https://www.azurefromthetrenches.com/introductory-guide-to-aabb-tree-collision-detection/) theory about aabb tree collision detections
-[Links](http://thatgamesguy.co.uk/cpp-game-dev-16/) Theory about quadtree
+[(https://www.azurefromthetrenches.com/introductory-guide-to-aabb-tree-collision-detection/)](https://www.azurefromthetrenches.com/introductory-guide-to-aabb-tree-collision-detection/) theory about aabb tree collision detections
+[(http://thatgamesguy.co.uk/cpp-game-dev-16/)](http://thatgamesguy.co.uk/cpp-game-dev-16/) Theory about quadtree
 
-[Links](https://gamedevelopment.tutsplus.com/tutorials/how-to-create-a-custom-2d-physics-engine-the-basics-and-impulse-resolution--gamedev-6331) Article about basic collision and impulse
+[(https://gamedevelopment.tutsplus.com/tutorials/how-to-create-a-custom-2d-physics-engine-the-basics-and-impulse-resolution--gamedev-6331)](https://gamedevelopment.tutsplus.com/tutorials/how-to-create-a-custom-2d-physics-engine-the-basics-and-impulse-resolution--gamedev-6331) Article about basic collision and impulse
 
-[Links](https://gamedevelopment.tutsplus.com/tutorials/collision-detection-using-the-separating-axis-theorem--gamedev-169) Article about the SAT theorem with images and exemples
+[(https://gamedevelopment.tutsplus.com/tutorials/collision-detection-using-the-separating-axis-theorem--gamedev-169)](https://gamedevelopment.tutsplus.com/tutorials/collision-detection-using-the-separating-axis-theorem--gamedev-169) Article about the SAT theorem with images and exemples
 
-[Links](https://developer.mozilla.org/fr/docs/Games/Techniques/2D_collision_detection) Arcticle about 2d collision detection that redirect to other good article about this subject
+[(https://developer.mozilla.org/fr/docs/Games/Techniques/2D_collision_detection)](https://developer.mozilla.org/fr/docs/Games/Techniques/2D_collision_detection) Arcticle about 2d collision detection that redirect to other good article about this subject
 
 ## What is the physic engine supposed to do
 
@@ -44,6 +44,7 @@ Currently, my physic engine is not finished and cannot correctly detect contacts
 To make this game engine, i first had to implement every basic classes that are then used for maths and physics and everywhere in the engine. The first ones where the vector classe and the matrix classe because i had to implement the different operators as weel as dot and cross product, magnitude and normalization of vectors that would later be used across the engine.
 
 Exemples of operators :
+
 ![](https://marvinschrd.github.io/Images/exemple%20operator%20vector.png)     ![](https://marvinschrd.github.io/Images/exemple%20operator%20matrix.png) 
 
 
