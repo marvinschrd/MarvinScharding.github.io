@@ -29,14 +29,14 @@ Players can only move from left to right and will go up by flying in small burst
 "W" KEY : Dropping egg
 
 ## Challenges
-The challenges will be to implement the game physics correctly :
+The challenges will be to implement the game physics correctly and make correct use of the rollback implementation :
 - Players constantly falling when not going up
-- Players moving from right to left
+- Players moving from right to left with side respawn
 - Players being able to "fly" by small burst
 - Collisions detection for player/player, player/platform, player/egg
+- Manage dropped eggs to be able to resimulate them when using the rollback
+- Coordinate the game logic
 
-And also to accordingly use the engine with its rollback implementation to make the networking functional :
-- f
 
 
 
