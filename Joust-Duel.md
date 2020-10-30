@@ -8,6 +8,7 @@ Joust Duel is based ont the Atari 2600 game Joust and only focus on two player j
 
 ![](https://marvinschrd.github.io/Images/joust.jpg "Original Joust game for exemple")
 
+
 ## Gameplay
 Players can only move from left to right and will go up by flying in small burst. They will then slowly fall down when not going up.
 Players respawn on the other side of the screen when they get offscreen on the right or on the left.
