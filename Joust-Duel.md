@@ -3,7 +3,7 @@
 For our second year GPR5100 module, we are asked to make an online multyplayer game using the rollback technique. This game is being made on the Necko Engine using an already implemented rollback that we have to understand and use in order to make our game and networking work correctly. The goal is not to make a visually esthetic game or to create elaborate gameplay but rather to implement a very small, easy online multyplayer game using the rollback technique.
 
 ## Description and rules
-Joust Duel is based ont the Atari 2600 game Joust and only focus on two player jousting against eachother. The players have to kill each other by flying and colliding. The player who has the highest altitude when colliding is the fight winner. Players can also drop an "Egg" wich kill the other player touching it when it falls. The first player to kill the other 4 times win the game.
+Joust Duel is based ont the Atari 2600 game Joust and only focus on two player jousting against eachother. It,s a 2D side views game where the players have to kill each other by flying and colliding. The player who has the highest altitude when colliding is the fight winner. Players can also drop an "Egg" wich kill the other player touching it when it falls. The first player to kill the other 4 times win the game.
 
 
 ![](https://marvinschrd.github.io/Images/joust.jpg "Original Joust game for exemple")
