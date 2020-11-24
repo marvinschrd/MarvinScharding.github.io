@@ -29,6 +29,7 @@ Players are also constantly falling if they are not flying or already at the bot
 ### Player side respawning
 The player have the possibility to keep moving in a direction without being stopped by the screen by respawning on the other side. They keep their vertical position aswell as their velocity when it happen. This is done in the physics_manager file by checking the position and velocity of each player body and moving them when they reach the side of the screen. A trick was to check the velocity of the bodies before respawning them in order to prevent an infinite case of respawn every time they were moved to the other side of the screen.
 
+![](https://marvinschrd.github.io/Images/respawn_joustDuel.png "Original Joust game for exemple")
 ![](https://marvinschrd.github.io/Images/joust%20movement%20respawn.gif "Original Joust game for exemple")
 
 
