@@ -54,4 +54,7 @@ Actual collision :
 Previous collision :
 ![](https://marvinschrd.github.io/Images/original_collision_joustDuel.png "Original Joust game for exemple")
 
-When actually hit, a player then loose a health point and goes into a state of invincibility wich prevent him from being hit again but also make him fall to the ground and block his movement.
+When actually hit, a player then loose a health point and goes into a state of invincibility wich prevent him from being hit again but also make him fall to the ground and block his movement. A player win when he manage to make his opponent health fall to zero.
+
+## Conclusion
+In conclusion, i didnt have to deal too much with the rollback in itself, but i had to understand how it worked and how to implement a game on this system and on the Neko Engine wich i am happy about. I couldnt go further and implement platforms in the level that would have made a big improvement in term of simple gameplay aswell as being able to do better collision reaction between players. The rollback is very efficient and didnt have much trouble to make two players play against each other even with the worst possible conditions.
