@@ -30,7 +30,6 @@ The player have the possibility to keep moving in a direction without being stop
 
 ![](https://marvinschrd.github.io/Images/joust%20movement%20respawn.gif "Original Joust game for exemple")
 
-insert respawn gif + respawn code
 
 ### Player/Player collision
 The principe of Joust duel is to have two player run into each other for hits. For this reason it was necessary to detect player/player collisions.
@@ -48,6 +47,10 @@ Two conditions are needed : the player is lower than the other and the other pla
 
 At first, i implemented more conditions in order to allow back hits, wich mean that a player could run into its opponent back and hit him. It worked but, it also created a situation where the player could be hit by its opponent when trying to strike his back, at the moment the player x position became greater than its target and if the other player managed to go higher than him. It is in fact not an error, because the other player didn't hit him with his back but with is front, but it gave the feeling of being struck by your opponent back and for this reason, i finally decided to stay with a face to face only type of attack.
 
+Actual collision :
 ![](https://marvinschrd.github.io/Images/actual_collision_joustDuel.png "Original Joust game for exemple")
+
+Previous collision :
+![](https://marvinschrd.github.io/Images/original_collision_joustDuel.png "Original Joust game for exemple")
 
 When actually hit, a player then loose a health point and goes into a state of invincibility wich prevent him from being hit again but also make him fall to the ground and block his movement.
