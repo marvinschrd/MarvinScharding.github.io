@@ -38,7 +38,6 @@ The principe of Joust duel is to have two player run into each other for hits. F
 The collision are handled in two different files : first in the physics_manager, then they are executed in the rollback_manager.
 In the physics_manager, collision are detected by using the AABB of each bodies. When they collide, the entities are then given to the rollback_manager wich will decide what to do at this point.
 
-insert aabb collision image
 
 ### Collision behavior and hit conditions
 When the rollback_manager get the collision with its entities, he then has to deal with them. For the Joust gameplay, the player wich has the higher vertical position when colliding is the winner, so the other player lose a health point and players cannot hit each other with their back, they must face their target.
