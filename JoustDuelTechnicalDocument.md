@@ -18,10 +18,10 @@ In order for the most basic Joust Duel gameplay to be possible, i had to recreat
 I implemented players movement in the player_character file. Players can use W,A,D keys and arrow keys dependinf on the player number.
 Players can move left and right and they can fly up by pressing W or the UP key. The speed is not constant and is incremented in order to allow some kind of acceleration.
 
-insert input image
 ![](https://marvinschrd.github.io/Images/inputs_joustDuel.png "Original Joust game for exemple")
 
 When changing direction, players "flip" so they are always facing a specific direction. This is done by rotating the players.
+![](https://marvinschrd.github.io/Images/player_flip_joustDuel.png "Original Joust game for exemple")
 
 Players are also constantly falling if they are not flying or already at the bottom of the screen. The movement speed is limited in each direction to a maximum to avoid having super sonic jouster.
 
