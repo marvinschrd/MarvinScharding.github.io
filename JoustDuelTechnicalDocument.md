@@ -19,6 +19,7 @@ I implemented players movement in the player_character file. Players can use W,A
 Players can move left and right and they can fly up by pressing W or the UP key. The speed is not constant and is incremented in order to allow some kind of acceleration.
 
 insert input image
+![](https://marvinschrd.github.io/Images/inputs_joustDuel.png "Original Joust game for exemple")
 
 When changing direction, players "flip" so they are always facing a specific direction. This is done by rotating the players.
 
