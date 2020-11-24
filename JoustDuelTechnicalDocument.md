@@ -32,3 +32,14 @@ insert respawn gif + respawn code
 The principe of Joust duel is to have two player run into each other for hits. For this reason it was necessary to detect player/player collisions.
 The collision are handled in two different files : first in the physics_manager, then they are executed in the rollback_manager.
 In the physics_manager, collision are detected by using the AABB of each bodies. When they collide, the entities are then given to the rollback_manager wich will decide what to do at this point.
+
+insert aabb collision image
+
+### Collision behavior and hit conditions
+When the rollback_manager get the collision with its entities, he then has to deal with them. For the Joust gameplay, the player wich has the higher vertical position when colliding is the winner, so the other player lose a health point and players cannot hit each other with their back, they must face their target.
+For that to happen, the ManageCollision function had to determine if the player that was hit, was in the right situation to lose health.
+Two conditions are needed : the player is lower than the other and the other player is facing him.
+
+At first, i implemented more conditions in order to allow back hits, wich mean that a player could run into its opponent back and hit him. It worked but, it also created a situation where the player could be hit by its opponent when trying to strike his back, at the moment the player x position became greater than its target and if the other player managed to go higher than him. It is in fact not an error, because the other player didn't hit him with his back but with is front, but it gave the feeling of being struck by your opponent back and for this reason, i decided to stay with a face to face only type of attack.
+
+When actually hit, a player then loose a health point and goes into a state of invincibility wich prevent him from being hit again but also make him fall to the ground and block his movement.
