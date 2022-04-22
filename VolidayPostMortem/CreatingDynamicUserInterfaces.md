@@ -29,7 +29,7 @@ In order to do that, we had to have all the informations for each building saved
 ### Construction menu building detail widget :
 The first widget I talked about, is the construction menu building detail. It is a small widget whose purpose is to show the most basic information about a building before a player chooses to place it in game. 
 
-[](https://marvinschrd.github.io/VolidayPostMortem/images/DetailMenuBeforeAfter.png)
+![](https://marvinschrd.github.io/VolidayPostMortem/images/DetailMenuBeforeAfter.png)
 
 #### How it works :
 The construction menu building detail is created once when the construction menu is initialized. He is empty, with only its design and layout but with no values in it. When the different building buttons are initialized in the construction menu, they store their associated building type. Then when the player is hovering the mouse on top of a building button, the UpdateValues function of the widget is called. This function uses the stored building type and the data spreadsheet to get all the informations of the building and set them inside the widget. The widget is used inside the built-in tooltip functionality of Unreal Engine to show and hide the widget when hovering the button. With this, only one construction menu building detail widget is created and present in game instead of one for each building. It simply updates itself every time we hover a building button.
