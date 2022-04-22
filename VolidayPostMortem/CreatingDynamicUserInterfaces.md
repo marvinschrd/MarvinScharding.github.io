@@ -43,6 +43,8 @@ The widget uses the same system of getting the building definition from the spre
 
 Depending on the category of the selected building, and as explained on my other blogpost about the selection mechanics, the corresponding detail widget is called, updated and displayed on the screen.
 
+![](https://marvinschrd.github.io/VolidayPostMortem/images/DwellingsDetailMenuBeforeAfter.png)
+
 
 ### The construction Menu :
 The construction menu is the menu that displays all the buildings in the game based on their categories and is used by the player to buy and place buildings on the island. It is the most important menu in the game.
