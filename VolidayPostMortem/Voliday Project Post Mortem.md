@@ -43,12 +43,13 @@ The first thing that i had to do, and that i did, was to define how many UI elem
 
 ![](https://marvinschrd.github.io/VolidayPostMortem/images/AllUI.png)
 
-![](https://marvinschrd.github.io/VolidayPostMortem/images/ConstructionMenuBeforeAfter.png)
-
+![](https://marvinschrd.github.io/VolidayPostMortem/images/BaseMockup.png)
 
 
 #### Making the good choices :
 The design of the user interfaces changed through the development, specifically after feedbacks, and playtest, and some of them were dropped because their related game content was no longer part of the project. Since the initial ambitions of our games were not the same as they ended up being, some of the work I did had to be adapted a lot of time. This is something we knew would happen but it can sometimes be painful. Another aspect was the fact that I had no experience in designing user interfaces, therefore, some of my ideas, quite a lot of them at first, weren’t as good as I thought they were. I also didn’t look as much as I should have into other city builder games for references and good practices. This could have saved us some time, especially on the UX part of the game, because we had to wait for actual experts or more experienced people to tell us what was wrong and had to be fixed or added.
+
+![](https://marvinschrd.github.io/VolidayPostMortem/images/ConstructionMenuBeforeAfter.png)
 
 Making things simple for the player was a hard task. In a city builder game, or any game that involves managing things, the amount of information and possibilities can quickly become overwhelming for the player if it’s not correctly displayed. Our game didn't have so many features for this to happen, but the UI had to work according to our game experience : simple, calm and peaceful. This is why I also took some of my first design inspiration on mobile games, because they often manage to display minimal information on a tiny screen without having the player wondering what he is doing or what is going on.
 
