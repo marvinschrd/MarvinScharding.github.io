@@ -56,7 +56,7 @@ When a building is selected, the SelectionBehavior tells the camera to move to t
 The camera doesn’t zoom in or out but only horizontally moves to the given location. The cameraBehavior computes the distance between the camera and the selected building location at each frame and, using the game delta time, lerp their position together until the computed distance between the two is smaller than a fixed minimum value.
 
 ![](https://marvinschrd.github.io/VolidayPostMortem/images/CameraMovevement.gif)
-![](https://marvinschrd.github.io/VolidayPostMortem/images/cameraMovingImage.pngg)
+![](https://marvinschrd.github.io/VolidayPostMortem/images/cameraMovingImage.png)
 
 Lerping the position instead of just moving or teleporting the camera to a new location allows for a smoother movement, getting slower when the location is close to being reached.	
 
