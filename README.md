@@ -5,3 +5,4 @@
 ## [Joust Duel Rollback Networking GDD blogpost GPR5100](https://marvinschrd.github.io/Joust-Duel)
 ## [Joust Duel Rollback Networking Technical Document blogpost GPR5100](https://marvinschrd.github.io/JoustDuelTechnicalDocument)
 ## [Voliday Project Post Mortem](https://marvinschrd.github.io/VolidayPostMortem/VolidayProjectPostMortem)
+## [Voliday Project Post Mortem](https://marvinschrd.github.io/VolidayPostMortem/CreatingDynamicUserInterfaces)
