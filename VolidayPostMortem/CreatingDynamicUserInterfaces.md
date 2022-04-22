@@ -70,7 +70,7 @@ Finally, the building buttons themselves initialize their information based on t
 ## Conclusion :
 The final result is that with all of these steps, the most complex menu of the game can initialize itself and always be correct even if buildings are switched from a category to another in the game data, or if new buildings are added in the spreadsheet or modified in any way.
 
-
+![](https://marvinschrd.github.io/VolidayPostMortem/images/ConstructionMenuGif.gif)
 
 With this task, I learned and realized how important it is to implement dynamic UI elements when possible, in order to minimize the work that needs to be done globally, but specifically when things have to be changed. 
 
