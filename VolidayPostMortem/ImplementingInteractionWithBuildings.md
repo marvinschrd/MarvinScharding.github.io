@@ -13,7 +13,7 @@ One of the first things I implemented about player and building interaction was 
 
 When a building is hovered by the player, a specific highlight outline can be seen around the building meshes. It makes it easier to see an entire building even if he is partially hidden by another.
 
-
+![](https://marvinschrd.github.io/VolidayPostMortem/images/DetailMenuWhenSelected.png)
 
 ### How it works :
 I used the lineTraceByChannel function of the engine to trace a line from the mouse cursor into the world after converting the mouse location to worldspace.
