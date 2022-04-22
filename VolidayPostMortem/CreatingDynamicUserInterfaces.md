@@ -54,10 +54,14 @@ This widget contains a lot of other smaller widgets that work together to create
 The construction menu initialize himself by doing a few things :
 
 First, it has to get all the different building categories to know how many buildings are actually saved in each of them. The built-in function of Unreal engine to read spreadsheets doesn’t allow for column reading, but only rows . Since the categories are all stored on a column of the spreadsheet, I had to find a way to extract them and count the buildings in them. The construction categories widget loops through each row of the data spreadsheet and extracts the building definition of that row. Then, it takes the building category stored in these definitions and filters them. Filling an array with a specific building type each time the category is found. This ends up filling arrays for each different category  with the exact number of buildings of each category and their type (DWELLINGS : Inn and Castle, RESTAURATION : Fast food and Restaurant…)
+
 ![](https://marvinschrd.github.io/VolidayPostMortem/images/COnstructionMenuDuagram1.png)
 
 Next, the category slide boxes use the size of each Building type array to determine how many construction buttons it has to create and add
+
 Then, each category slide box initialize the buttons it created with the corresponding building type by looping through the category array filled with the buildings type
+
+![](https://marvinschrd.github.io/VolidayPostMortem/images/ConstructionMenuDiagram2.png)
 
 Finally, the building buttons themselves initialize their information based on the type that was given to them. The text, the image, and the customer icon as well as locking themselves if they are under a certain popularity level restriction.
 
