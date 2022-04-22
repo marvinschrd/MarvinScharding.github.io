@@ -13,7 +13,7 @@ One of the first things I implemented about player and building interaction was 
 
 When a building is hovered by the player, a specific highlight outline can be seen around the building meshes. It makes it easier to see an entire building even if he is partially hidden by another.
 
-![](https://marvinschrd.github.io/VolidayPostMortem/images/DetailMenuWhenSelected.png)
+![](https://marvinschrd.github.io/VolidayPostMortem/images/HighligthingBuilding.png)
 
 ### How it works :
 I used the lineTraceByChannel function of the engine to trace a line from the mouse cursor into the world after converting the mouse location to worldspace.
@@ -45,7 +45,7 @@ Depending on the selected building type, the widget switcher is called and switc
 The player can select any building he wants and the switcher will automatically switch the menu, always displaying the information of the newly selected building. This is why the selection behavior component is so important. With it, and with the fact that it always knows what building is being looked at or selected, we can implement and use a lot of different selection features that will always be correct regardless of how many buildings are placed in game and how fast the player is switching from one to another.
 
 
-
+![](https://marvinschrd.github.io/VolidayPostMortem/images/DetailMenuWhenSelected.png)
 
 
 ## Focusing the camera on the selected building
