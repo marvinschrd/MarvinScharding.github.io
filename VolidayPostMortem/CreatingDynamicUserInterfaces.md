@@ -76,5 +76,5 @@ With this task, I learned and realized how important it is to implement dynamic 
 
 To go further, I could have tried to only have one single detail menu and also update the physical layout of the widget at runtime. I could also have pushed the generation of the construction menu by making it capable of adapting not only to new buildings being added in categories but also the adding of a brand new category.
 
-
+ 
 
