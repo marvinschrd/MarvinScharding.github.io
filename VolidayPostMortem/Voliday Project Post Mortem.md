@@ -71,6 +71,6 @@ I am very happy with what all of us, including the art and audio team, managed t
 Personally, even if the role of UI/UX Lead is not something I would have specifically chosen to take or to specialize in during a few months, I am satisfied with what I did and what I’ve learned from it. This task was needed and I know that a significant amount of the general success of our project has to come from it as well.
 
 
-![](https://marvinschrd.github.io/VolidayPostMortem/images/UIFinale0.png)
+![](https://marvinschrd.github.io/VolidayPostMortem/images/UIFinale.png)
 
 
