@@ -65,6 +65,8 @@ Then, each category slide box initialize the buttons it created with the corresp
 
 Finally, the building buttons themselves initialize their information based on the type that was given to them. The text, the image, and the customer icon as well as locking themselves if they are under a certain popularity level restriction.
 
+![](https://marvinschrd.github.io/VolidayPostMortem/images/BuildingButtonWithText.png)
+
 ## Conclusion :
 The final result is that with all of these steps, the most complex menu of the game can initialize itself and always be correct even if buildings are switched from a category to another in the game data, or if new buildings are added in the spreadsheet or modified in any way.
 
