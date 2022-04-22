@@ -41,7 +41,9 @@ My task was to imagine, design, and implement the various menus and user interfa
 #### Imagining the game UI :
 The first thing that i had to do, and that i did, was to define how many UI elements were going to be in the game. With the help of the project’s Game Design Lead, I defined every element that would have to be present in game. I used drawings and softwares to imagine the layout of the different menus and how to efficiently try to use them for gameplay and information to the player. It was a long and difficult task because even though we significantly reduced our ambition with the game during its production, the UI was still one of the most important and varied part of the project. This led to me making a lot of different mockups and getting feedback from them before trying to create them in the game engine. My task wasn’t to make the actual “visual” design of the UI, since this was made by the art team, but I had to imagine the layouts, and give them to the artists with instructions in order for them to create the 2d assets that would be used in the final game.
 
-![](marvinschrd.github.io/VolidayPostMortem/images/AllUI.png)
+![](https://marvinschrd.github.io/VolidayPostMortem/images/AllUI.png)
+
+![](https://marvinschrd.github.io/VolidayPostMortem/images/ConstructionMenuBeforeAfter.png)
 
 
 
